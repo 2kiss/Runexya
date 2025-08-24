@@ -1,19 +1,15 @@
-# Runexya 1.0.2 (Rust)
+# Runexya
 
-Double‑click any .exe → Proton‑GE 10–12 (fallback Experimental), always winmm=n,b, auto‑loads local DLLs (recursive, default depth=6), per‑game prefix.
+Простой способ запускать Windows‑игры и программы на Linux. Установи и открывай .exe двойным кликом — без настроек и лишних действий.
 
-## Build & Install
-- sudo apt install -y cargo rustc
-- cargo build --release
-- chmod +x build_deb.sh && ./build_deb.sh
-- sudo dpkg -i runexya_1.0.2_all.deb
-- Ensure Proton‑GE is in Steam compatibilitytools.d, then restart Steam.
+## Установка
+1) Скачай .deb из раздела Releases (справа).
+2) Установи: `sudo dpkg -i runexya_<версия>_all.deb`
+3) Убедись, что Proton‑GE установлен в Steam (compatibilitytools.d), перезапусти Steam.
 
-## Use
-- Double‑click .exe or: runexya /path/to/Game.exe
-- Optional: .protonge-overrides in game folder (lines like `dinput8=n,b` or `xaudio2_9=b`).
-- Env:
-  - DLL_DEPTH=6 (default) — change search depth
-  - DISABLE_AUTO_DLL=1 — disable auto DLL scan
+## Использование
+- Открой любой .exe двойным кликом или `runexya /path/to/Game.exe`.
+- По умолчанию всё работает “из коробки”.
+- Если что-то не работает попробуйте выбрать runexya по умолчанию в 'Открыть с помощью'
 
-Prefix: ~/.local/share/runexya/compatdata/<hash>/pfx
+License: Proprietary (see LICENSE.txt)
