@@ -1,1 +1,11 @@
-EULA
+Runexya — End-User License Agreement (EULA) © 2025
+
+1. License. Non-exclusive, non-transferable license to use “Runexya”.
+2. Restrictions. No modification, rebranding, reverse engineering, or redistribution, except as permitted by applicable law.
+3. Third-party. Not affiliated with Valve, Steam, Wine, Proton; their names belong to their owners.
+4. “AS IS”. Provided without warranties; all risks are assumed by the user.
+5. Liability. No liability for any damages arising from use.
+6. Updates. Provided at author’s discretion.
+7. Governing law. Subject to mandatory rules of your jurisdiction.
+
+By using Runexya you agree to this EULA.
